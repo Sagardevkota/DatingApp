@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "94414808434",
+    "firebase_url": "https://partnerfinder-737f5.firebaseio.com",
+    "project_id": "partnerfinder-737f5",
+    "storage_bucket": "partnerfinder-737f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94414808434:android:7fca7015ed99018f",
+        "android_client_info": {
+          "package_name": "com.example.hp.datingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94414808434-2c14ucdpt28pmroj68iguk1ngo4fo259.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.datingapp",
+            "certificate_hash": "0937693eb398a555e08aa4e327578571ca5e137e"
+          }
+        },
+        {
+          "client_id": "94414808434-h5epufpiupn6a06u52bdeh4s50foptbb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJnJqBFXVql0Uv32E2I2mbPIOVvEET6LE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94414808434-h5epufpiupn6a06u52bdeh4s50foptbb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

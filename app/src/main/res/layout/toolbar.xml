@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.MaterialToolbar
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cc0066"
+    android:elevation="4dp"
+    android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/header_user_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/ic_launcher_round"
+
+        android:layout_marginBottom="10dp"
+        android:elevation="5dp"
+        android:onClick="headerImageClick"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+      />
+
+    <TextView
+        android:id="@+id/header_username"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:text="Sagar"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/browser_actions_bg_grey"
+        android:textSize="24sp" />
+
+</com.google.android.material.appbar.MaterialToolbar>
